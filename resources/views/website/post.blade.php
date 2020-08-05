@@ -131,7 +131,6 @@
             </div>
             <form class="form-mf" action="{{route('store')}}" method="POST">
               @csrf
-              {{$post->slug}}
               <input type="hidden" name="slug" value="{{$post->slug}}">
               <input type="hidden" name="id" value="{{$post->id}}">
 
